@@ -19,7 +19,7 @@ const Navbar = () => {
         <>
             <div class="topnav" id="myTopnav">
                 {/* <a href="#home" class="active">Home</a> */}
-                <a href="#home">Dr. Himanshu Batham</a>
+                <a href="#home">Dr. Himanshu</a>
                 <a href="#home">Home</a>
                 <a href="#news">Products</a>
                 <a href="#news">Homeopathy</a>
