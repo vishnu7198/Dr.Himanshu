@@ -21,7 +21,7 @@ const Navbar = () => {
         <a href="/">Dr. Himanshu</a>
         <a href="/">Home</a>
         <a href="/product">Products</a>
-        <a href="/">Treatments</a>
+        <a href="/treatments">Treatments</a>
         <a href="/gallery">Gallery</a>
         <a href="/results">Results</a>
         <a href="/about">About Doctors</a>

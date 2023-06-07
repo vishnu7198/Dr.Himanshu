@@ -13,13 +13,13 @@ const Slider = () => {
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <Image src={slide} class="d-block w-100" alt="..." id='slide-img'/>
+                        <Image src={slide4} class="d-block w-100" alt="..." id='slide-img'/>
                     </div>
                     <div class="carousel-item">
                         <Image src={slide3} class="d-block w-100" alt="..." id='slide-img'/>
                     </div>
                     <div class="carousel-item">
-                        <Image src={slide4} class="d-block w-100" alt="..." id='slide-img'/>
+                        <Image src={slide} class="d-block w-100" alt="..." id='slide-img'/>
                     </div>
                     <div class="carousel-item">
                         <Image src={slide5} class="d-block w-100" alt="..."id='slide-img' />
