@@ -19,8 +19,8 @@ const Footer = () => {
                     <div className="col-sm-12 col-md-6 col-lg-4">
                         <ul>
                             <h2>Useful Links</h2>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Our Products</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/product">Our Products</a></li>
                             <li><a href="#">About Doctor</a></li>
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Results</a></li>

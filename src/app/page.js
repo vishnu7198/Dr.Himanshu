@@ -1,4 +1,4 @@
-import Products from "./Products";
+import Products from "./product/page";
 import Slider from "./Slider";
 
 export default function Home() {

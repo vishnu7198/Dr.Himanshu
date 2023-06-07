@@ -18,13 +18,13 @@ const Navbar = () => {
     <>
       <div class="topnav" id="myTopnav">
         {/* <a href="#home" class="active">Home</a> */}
-        <a href="#home">Dr. Himanshu</a>
-        <a href="#home">Home</a>
-        <a href="#news">Products</a>
-        <a href="#contact">Treatments</a>
-        <a href="#contact">Gallery</a>
-        <a href="#contact">Results</a>
-        <a href="#contact">Ordering Medicine</a>
+        <a href="/">Dr. Himanshu</a>
+        <a href="/">Home</a>
+        <a href="/product">Products</a>
+        <a href="/">Treatments</a>
+        <a href="/gallery">Gallery</a>
+        <a href="/results">Results</a>
+        <a href="/about">About Doctors</a>
 
         <a href="javascript:void(0);" class="icon" onClick={menu}>
           <AiOutlineMenu />
