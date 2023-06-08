@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Gallery from '../gallery/page'
 import A1 from '../himanshu-slider/A1.jpeg'
 import A3 from '../himanshu-slider/slider-3.jpg'
 import A4 from '../himanshu-slider/slider-4.jpg'
@@ -21,7 +20,7 @@ const About = () => {
           <div className="col-12 col-md-6 "> <Image src={A5} alt='Gallery img' /> </div>
         </div>
       </div>
-//       <Gallery />
+
     </>
   )
 }
