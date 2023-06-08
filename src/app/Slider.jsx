@@ -5,6 +5,9 @@ import slide from './himanshu-slider/slider-2.jpg'
 import slide3 from './himanshu-slider/slider-3.jpg'
 import slide4 from './himanshu-slider/slider-4.jpg'
 import slide5 from './himanshu-slider/slider-5.jpg'
+import Gallery from './gallery/page'
+import About from './about/page'
+import Results from './results/page'
 
 
 const Slider = () => {
@@ -34,6 +37,9 @@ const Slider = () => {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+
+            <Results />
+            <About />
         </>
     )
 }

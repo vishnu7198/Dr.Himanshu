@@ -9,7 +9,6 @@ const Treatments = () => {
     return (
         <>
             <h2 className='pt-4 text-center'>Treatements</h2>
-
             <div className="container" id='treatment-area'>
                 <div className="row">
 
