@@ -21,7 +21,7 @@ const About = () => {
           <div className="col-12 col-md-6 "> <Image src={A5} alt='Gallery img' /> </div>
         </div>
       </div>
-      <Gallery />
+//       <Gallery />
     </>
   )
 }
