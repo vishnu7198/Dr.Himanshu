@@ -2,6 +2,7 @@
 import React from 'react'
 import './globals.css'
 import { AiOutlineMenu } from "react-icons/ai";
+import Link from 'next/link';
 
 
 const Navbar = () => {
@@ -17,18 +18,16 @@ const Navbar = () => {
   return (
     <>
       <div class="topnav" id="myTopnav">
-        {/* <a href="#home" class="active">Home</a> */}
-        <a href="/">Dr. Himanshu</a>
-        <a href="/">Home</a>
-        <a href="/product">Products</a>
-        <a href="/treatments">Treatments</a>
-        <a href="/gallery">Gallery</a>
-        <a href="/results">Results</a>
-        <a href="/about">About Doctors</a>
-
-        <a href="javascript:void(0);" class="icon" onClick={menu}>
+        <Link href="/">Dr. Himanshu</Link>
+        <Link href="/">Home</Link>
+        <Link href="/product">Products</Link>
+        <Link href="/treatments">Treatments</Link>
+        <Link href="/gallery">Gallery</Link>
+        <Link href="/results">Results</Link>
+        <Link href="/about">About Doctors</Link>
+        <Link href="javascript:void(0);" class="icon" onClick={menu}>
           <AiOutlineMenu />
-        </a>
+        </Link>
       </div>
 
     </>

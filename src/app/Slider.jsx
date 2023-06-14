@@ -38,8 +38,6 @@ const Slider = () => {
                 </button>
             </div>
 
-            <Results />
-            <About />
         </>
     )
 }

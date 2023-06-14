@@ -6,6 +6,12 @@ import A4 from '../himanshu-slider/slider-4.jpg'
 import A5 from '../himanshu-slider/slider-5.jpg'
 // import A6 from '../himanshu-slider/slider-6.jpg'
 
+export const metadata = {
+  title: 'Dr.Himanshu Batham About us page...',
+  name : "keywords", content  :"Dr.Himanshu Batham.in Dr.Himanshu Batham",
+  description: 'Established in the year 2017, Dr. Himanshu Batham (Skin Care and Clinic) in Chhatarpur City, Chhatarpur is a top player in the category Dermatologists',
+}
+
 const About = () => {
   return (
     <>
@@ -20,7 +26,6 @@ const About = () => {
           <div className="col-12 col-md-6 "> <Image src={A5} alt='Gallery img' /> </div>
         </div>
       </div>
-
     </>
   )
 }
